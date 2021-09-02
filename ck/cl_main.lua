@@ -128,5 +128,5 @@ end)
 
 RegisterNetEvent("karpo_huumeet:notifi")
 AddEventHandler("karpo_huumeet:notifi", function(msg)
-    ESX.ShowAdvancedNotification('Asekauppa', msg, '', "CHAR_AMMUNATION", 1)
+    ESX.ShowAdvancedNotification('Huumeet', msg, '', "CHAR_LESTER_DEATHWISH", 1)
 end)
